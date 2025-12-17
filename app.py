@@ -9,7 +9,8 @@ import math
 # ==========================================
 # 1. KONFIGURASI
 # ==========================================
-API_KEY = "AIzaSyDfog2vAJ_-Os4C46cg08c2-QiRt-wYF94" 
+# Mengambil dari Secrets Streamlit (Aman)
+API_KEY = st.secrets["GOOGLE_API_KEY"]
 MODEL_TYPE = "gemini-flash-latest"
 
 # KAMUS PRODUK (SUPER APP MODE)
